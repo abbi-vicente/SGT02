@@ -1,0 +1,82 @@
+.bg {
+	background-color: bisque;
+
+	/* gradient background */
+	background: rgb(168, 115, 115);
+	background: linear-gradient(54deg, rgba(223, 209, 134, 1) 0%, rgba(224, 134, 37, 1) 38%, rgba(226, 233, 132, 1) 100%);
+
+	/* background-image: url("background.jpg"); */
+	background-image: url("https://images.unsplash.com/photo-1614849286447-fb815456e5a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxpZ2h0JTIwY29sb3VyfGVufDB8fDB8fHww&w=1000&q=80");
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.font-sample {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: teal;
+	color: blanchedalmond;
+}
+
+.text-sample {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	font-size: 20px;
+}
+
+#spacing-sample {
+	letter-spacing: 5px;
+	line-height: 5;
+	text-indent: 30px;
+}
+
+#shadow-sample {
+	text-shadow: 10px 5px 10px rgb(17, 11, 74);
+}
+
+/* text-shadow:
+    x-coordinate ||
+    y-coordinate ||
+    blur radius ||
+    color of the shadow
+ */
+
+.box-model {
+	background-color: pink;
+	height: 100px;
+	width: 80px;
+
+	padding: 20px 10px 5px 25px;
+	padding-top: 25px;
+
+	border-color: crimson;
+	border-width: 5px;
+	border-style: solid;
+	border: 10px solid orange;
+
+	/* border: border-width || border-style || bordere-color */
+	border-top: 5px solid purple;
+	border-right: 5px dashed blue;
+	border-bottom: 8px dotted green;
+	border-left: 8px double skyblue;
+
+	margin: 5px 10px 40px 8px;
+	margin-left: 50px;
+
+	/* 
+    == MARGIN & PADDING ==
+
+    1 value = applied to all 4 sides
+    2 value = top and bottom side || right and left side
+    3 value = top side || left and right side || bottom side
+    4 value = top side || right side || bottom side || left side 
+
+
+*/
+}
